@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(6, 66, 115);
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif ;
+  text-align: center;
+}
+img {
+  width: 350px;
+}
+.sidenav {
+  height: 100%; 
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(222,243,246); 
+  padding-top: 20px;
+  
+}
+mark {
+  background-color: rgb(222,243,246);
+}
+
+.f {
+    display: inline-block;
+    width: 750px;
+     
+     
+}
+.n {
+    text-align: center;
+    border-bottom: 1px solid black; 
+    
+}
+
+.d {
+    text-align: center;
+ 
+}
+.gpa {
+  background-color: rgb(222,243,246)
+}
+div {
+background-color: rgb(222,243,246);
+box-shadow: 10px 10px 5px grey; 
+margin: 10px auto;
+  padding: 20px;
+  width: 750px;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+ background-color: rgb(255, 255, 255);
+  background-image: -webkit-linear-gradient(rgb(29, 162,216), rgb(118, 182, 196));
+  background-image: -moz-linear-gradient(rgb(29, 162,216),rgb(118, 182, 196));
+  background-image: -o-linear-gradient(rgb(29, 162,216), rgb(118, 182, 196));
+  background-image: linear-gradient(rgb(29, 162,216), rgb(118, 182, 196));
+   display: block;
+
+   font-family: 'Orbitron', sans-serif;
+
+  font-size: 28px;
+  margin: 10px auto;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 grey;
+  width: 750px;
+  
+}
+
+
+
+header a {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  width: 150px;
+}
+
+p {
+    color:grey;
+    text-align: center;
+    margin: 10px auto;
+  padding: 10px;
+  width: 650px;
+}
+li {
+    color:grey;
+  margin: 10px auto;
+  padding: 10px;
+  width: 650px;
+}
+
+.letterhead {
+  text-align: left;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+ .letterfoot {
+    text-align: right;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+.signature 
+{
+    text-align: right;
+  font-size: 15px;
+  font-family: 'Homemade Apple', cursive;
+}
+a {
+  background-color: rgb(255, 255, 255);
+  background-image: -webkit-linear-gradient(rgb(29, 162,216), rgb(118, 182, 196));
+  background-image: -moz-linear-gradient(rgb(29, 162,216),rgb(118, 182, 196));
+  background-image: -o-linear-gradient(rgb(29, 162,216), rgb(118, 182, 196));
+  background-image: linear-gradient(rgb(29, 162,216), rgb(118, 182, 196));
+
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0;
+  box-shadow: 0 1px 1px rgb(0, 0, 0), inset 0 1px 0 rgb(105, 105, 105);
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 18px;
+  margin: 10px auto;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 grey;
+  width: 150px;
+  text-align: center;
+
+}
+
+dt {
+    font-weight: bold;
+      color:grey;
+    text-align: left;
+    margin: 10px auto;
+  width: 650px;
+}
+
+dl,
+dd {
+    font-size: .9rem;
+      color:grey;
+    text-align: left;
+    margin: 10px auto;
+  width: 650px;
+ 
+}
+
+table {
+  background-color: rgb(222,243,246);
+  border: 3px solid rgb(118, 182, 196);
+  border-collapse: collapse;
+  color: rgb(118, 182, 196);
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  
+  
+}
+
+td, th {
+  border: 1px solid rgb(118, 182, 196);
+  padding: 3px;
+}
